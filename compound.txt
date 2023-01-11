@@ -1,0 +1,23 @@
+1. localhost:3000/api/v1/compound/importSpreadsheet -- POST
+requestBody in form body-->
+{
+file : csv file
+}
+
+
+2. localhost:3000/api/v1/compound/update?id= -- PUT
+requestBody -->
+{
+UUID:UUID
+compoundName:compoundName
+compoundDescription:compoundDescription
+strImageSource:strImageSource
+strImageAttribution:strImageAttribution
+dateModified:dateModified
+}
+
+
+
+3. localhost:3000/api/v1/compound/getAll -- get
+
+
