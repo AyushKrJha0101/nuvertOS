@@ -1,0 +1,17 @@
+ANGULAR -
+1. npm i
+2. ng s
+
+
+NODE -
+1. npm i
+2. open xampp
+3. start apache, mysql modules
+4. create database 'compound'
+5. npm run migration
+6. npm start
+7. run localhost:3000/api/v1/compound/importSpreadsheet -- POST
+requestBody in form body-->
+{
+file : csv file
+}
